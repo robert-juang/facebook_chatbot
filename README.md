@@ -29,14 +29,14 @@ An experimental chatbot which can be trained on one's messenger conversation. Th
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Installation
+### Installation and Usage
 
 1. Get an OpenAI API Key at [https://openai.com/blog/openai-api](https://openai.com/blog/openai-api)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/robert-juang/facebook_chatbot.git
    ```
-3. Create folder called APIKey.py at the root and set a variable APIKEY to your personal API Key. 
+3. Create folder in the folder "chatWithAnother" or "chatWithSelf" called APIKey.py at the root and set a variable APIKEY to your personal API Key. 
    ```py
    APIKEY = "your-api-key"
    ```
@@ -49,14 +49,14 @@ An experimental chatbot which can be trained on one's messenger conversation. Th
    ```sh
    ./chatAnother.sh 
    ```
-
+6. When you are done chatting, pressing q will store your conversation in a txt file
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The current capabilities of the python program is limited and is more of an experiment and demonstration of what can be built using the OpenAI API and Langchain framework. Enjoy!
+The current capabilities of the python program is limited and is more of an experiment and demonstration of what can be built using the OpenAI API and Langchain framework. That being said, more updates will be made to try to improve the chatbot. Enjoy!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
